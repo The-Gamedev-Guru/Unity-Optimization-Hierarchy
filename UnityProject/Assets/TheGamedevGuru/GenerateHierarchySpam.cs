@@ -17,7 +17,8 @@ public class GenerateHierarchySpam : MonoBehaviour
     
     void Start()
     {
-        JobsUtility.JobWorkerCount = 31;
+        // The following line sets the number of job threads to create. It's an interesting toy you can play with if you have Unity 2019.3+
+        // JobsUtility.JobWorkerCount = 31;
 
         for (var i = 0; i < numElements; i++)
         {
